@@ -2,7 +2,7 @@ def oxford_comma(array)
   counter = array.size
   word = String.new
   if array.size == 1
-    array
+    array.join
   elsif array.size == 2
     array.join(" and ")
   elsif array.size == 3
