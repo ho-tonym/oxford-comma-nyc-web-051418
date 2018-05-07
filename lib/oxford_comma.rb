@@ -13,6 +13,6 @@ def oxford_comma(array)
       counter -=1
     end
     word << "and #{array[array.size]}"
-    word
+    return word
   end
 end
