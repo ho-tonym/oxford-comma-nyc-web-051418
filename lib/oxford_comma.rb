@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  original_array = array
+
   word = String.new
   if array.size == 1
     array.join
@@ -8,6 +8,7 @@ def oxford_comma(array)
   elsif array.size == 3
     "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
+    original_array = array
     array.pop
       for element in array
         word << "#{element}, "
