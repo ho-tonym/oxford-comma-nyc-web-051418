@@ -1,5 +1,5 @@
 def oxford_comma(array)
-  counter = array.size
+  counter = array.length
   word = String.new
   if array.size == 1
     array.join
