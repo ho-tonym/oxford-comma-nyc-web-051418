@@ -8,7 +8,7 @@ def oxford_comma(array)
   elsif array.size == 3
     "#{array[0]}, #{array[1]}, and #{array[2]}"
   else
-    while counter>0
+    for element in array
       word << "#{element}, "
       counter -=1
     end
