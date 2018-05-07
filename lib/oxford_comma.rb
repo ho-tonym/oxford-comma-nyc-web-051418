@@ -1,6 +1,5 @@
 def oxford_comma(array)
   original_array = array
-  counter = array.length
   word = String.new
   if array.size == 1
     array.join
@@ -13,7 +12,7 @@ def oxford_comma(array)
       for element in array
         word << "#{element}, "
       end
-    word << "and #{original_array[counter]}"
+    word << "and #{original_array[-2]}"
     return word
   end
 end
