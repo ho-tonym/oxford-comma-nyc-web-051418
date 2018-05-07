@@ -13,7 +13,7 @@ def oxford_comma(array)
       for element in array
         word << "#{element}, "
       end
-    word << "and #{original_array[0]}"
+    word << "and #{original_array[array.size]}"
     return word
   end
 end
