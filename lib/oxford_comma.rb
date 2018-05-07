@@ -10,7 +10,7 @@ def oxford_comma(array)
   else
     for element in array
       word << "#{element}, "
-      break if counter = 0
+
     end
     word << "and #{array[-1]}"
     return word
